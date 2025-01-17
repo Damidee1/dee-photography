@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+  padding: 0px 5px 5px 0px;
   margin: 0;
   border: 0;
 }
@@ -27,4 +27,45 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4.5rem;
   color: pink;
+}
+.images-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+figcaption {
+  background-color: black;
+  color: aliceblue;
+  font-style: italic;
+  padding: 1px;
+  text-align: center;
+}
+h3 {
+  font-family: "charm";
+  font-weight: 400;
+  font-size: large;
+  text-align: center;
+}
+section {
+  padding: 15px;
+  margin: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.message-section p {
+  text-align: center;
+}
+.testimonials-msgs {
+  display: flex;
+  justify-content: space-around;
+}
+.testimonials-msg {
+  background-color: aqua;
+  color: rgb(126, 80, 19);
+  text-align: center;
+  border: 1px solid saddlebrown;
+  margin: 5px;
+  padding: auto;5px
+}
+.testimonials-msg:hover {
+  background-color: rgb(186, 89, 89);
 }
