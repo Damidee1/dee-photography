@@ -1,50 +1,75 @@
 * {
-  box-sizing: border-box;
-  padding: 0px 5px 5px 0px;
+  /* padding: 0px 5px 5px 0px; */
   margin: 0;
   border: 0;
+  list-style: none;
 }
 body {
-  background-color: rgb(232, 216, 198);
+  background-color: #c6dcba;
 }
+
 .navlist {
-  background-color: aquamarine;
+  background-color: #d7e4c0;
   padding: 20px;
+  position: fixed;
+  width: 100%;
 }
 .navlist ul {
-  position: sticky;
+  /* position: fixed; */
   display: flex;
   list-style: none;
   justify-content: space-around;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #987c6a;
 }
 .page-header {
   text-align: center;
-  padding: 80px 0;
-  background-color: beige;
+  padding: 90px 0;
+  /* background-color: #bbc3a4; */
 }
 
 .page-header h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4.5rem;
-  color: pink;
+  color: #b3a398;
 }
 .images-section {
   display: flex;
   justify-content: space-around;
-  margin: 30px;
+  margin: 0px;
+  border: 25pxpx solid black;
+}
+img {
+  border-radius: 20px;
+  border: 2px solid#B3A398;
+}
+
+img:hover {
+  transform: scale(1.1);
+  background-color: #bbc3a4;
+  transition: all 0.4s ease;
+  align-items: center;
+  cursor: pointer;
 }
 figcaption {
-  background-color: black;
-  color: aliceblue;
+  background-color: #d7e4c0;
+  color: #987c6a;
   font-style: italic;
   padding: 1px;
   text-align: center;
+  border-radius: 3px;
 }
 h3 {
   font-family: "charm";
   font-weight: 400;
   font-size: large;
   text-align: center;
+  color: #987c6a;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #987c6a;
 }
 section {
   padding: 15px;
@@ -59,13 +84,30 @@ section {
   justify-content: space-around;
 }
 .testimonials-msg {
-  background-color: aqua;
+  background-color: #bbc3a4;
   color: rgb(126, 80, 19);
   text-align: center;
   border: 1px solid saddlebrown;
   margin: 5px;
-  padding: auto;5px
+  padding: 5px;
 }
 .testimonials-msg:hover {
-  background-color: rgb(186, 89, 89);
+  background-color: #d7e4c0;
+}
+footer {
+  background-color: #d7e4c0;
+
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #987c6a;
+  /* margin-top: -150px;
+  height: 150px;
+  clear: both; */
 }
