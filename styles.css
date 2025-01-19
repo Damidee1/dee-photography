@@ -1,15 +1,16 @@
 * {
   /* padding: 0px 5px 5px 0px; */
   margin: 0;
+  padding: 0 0 5px 5px;
   border: 0;
   list-style: none;
 }
 body {
-  background-color: #c6dcba;
+  background-color: #fef9e1;
 }
 
 .navlist {
-  background-color: #d7e4c0;
+  background-color: #e5d0ac;
   padding: 20px;
   position: fixed;
   width: 100%;
@@ -19,8 +20,8 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-around;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #987c6a;
+  font-family: charm;
+  color: #a31d1d;
 }
 .page-header {
   text-align: center;
@@ -31,7 +32,7 @@ body {
 .page-header h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4.5rem;
-  color: #b3a398;
+  color: #6d2323;
 }
 .images-section {
   display: flex;
@@ -51,30 +52,33 @@ img:hover {
   align-items: center;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: #a31d1d;
+}
 figcaption {
-  background-color: #d7e4c0;
-  color: #987c6a;
+  background-color: #e5d0ac;
+  color: #6d2323;
   font-style: italic;
   padding: 1px;
   text-align: center;
   border-radius: 3px;
 }
 h3 {
-  font-family: "charm";
+  font-family: charm;
   font-weight: 400;
   font-size: large;
   text-align: center;
-  color: #987c6a;
+  color: #a31d1d;
 }
 p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #987c6a;
+  font-family: playfair display;
+  color: #a31d1d;
 }
 section {
   padding: 15px;
   margin: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 .message-section p {
   text-align: center;
@@ -84,18 +88,18 @@ section {
   justify-content: space-around;
 }
 .testimonials-msg {
-  background-color: #bbc3a4;
-  color: rgb(126, 80, 19);
+  background-color: #fef9e1;
+  color: #a31d1d;
   text-align: center;
   border: 1px solid saddlebrown;
   margin: 5px;
   padding: 5px;
 }
 .testimonials-msg:hover {
-  background-color: #d7e4c0;
+  background-color: #e5d0ac;
 }
 footer {
-  background-color: #d7e4c0;
+  background-color: #e5d0ac;
 
   padding: 5px;
   margin: 5px;
@@ -110,4 +114,47 @@ footer ul {
   /* margin-top: -150px;
   height: 150px;
   clear: both; */
+}
+/* contact us form */
+h1 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: charm;
+  font-weight: 900;
+  font-size: large;
+  color: #a31d1d;
+}
+.contact {
+  border: 2px solid #a31d1d;
+  width: 80%;
+  margin: auto;
+  padding: 0 0 0 5px;
+  font-family: playfair display;
+  color: c;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+input {
+  width: 90%;
+  cursor: pointer;
+  padding: 20px 20px;
+  display: inline-block;
+  border-radius: 1px solid #a31d1d;
+  background-color: #e5d0ac;
+}
+button {
+  background-color: #6d2323;
+  font-family: charm;
+  color: white;
+  width: 90px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #b3a398;
 }
