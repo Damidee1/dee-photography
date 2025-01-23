@@ -1,20 +1,24 @@
 * {
-  /* padding: 0px 5px 5px 0px; */
   margin: 0;
-  padding: 0 0 5px 5px;
   border: 0;
   list-style: none;
 }
+:root {
+  --wine: #a31d1d;
+  --cream: #e5d0ac;
+}
 body {
   background-color: #fef9e1;
+  /* background-image: url ("/home/damidee/bootcamp/dee-photography/photos"); */
 }
 
 .navlist {
-  background-color: #e5d0ac;
-  padding: 20px;
+  background-color: var(--cream);
+  /* padding: 20px; */
   position: fixed;
   width: 100%;
 }
+
 .navlist ul {
   /* position: fixed; */
   display: flex;
@@ -26,7 +30,7 @@ body {
 .page-header {
   text-align: center;
   padding: 90px 0;
-  /* background-color: #bbc3a4; */
+  background-image: url ("photos/bg.png");
 }
 
 .page-header h1 {
@@ -37,6 +41,7 @@ body {
 .images-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 0px;
   border: 25pxpx solid black;
 }
@@ -54,35 +59,33 @@ img:hover {
 }
 a {
   text-decoration: none;
-  color: #a31d1d;
+  color: var(--wine);
 }
 figcaption {
   background-color: #e5d0ac;
   color: #6d2323;
   font-style: italic;
-  padding: 1px;
+  padding: 2px;
   text-align: center;
   border-radius: 3px;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* width: 50%; */
+  /* display: flex;
+  flex-direction: column; */
 }
 h3 {
   font-family: charm;
   font-weight: 400;
   font-size: large;
   text-align: center;
-  color: #a31d1d;
+  color: var(--wine);
 }
 p {
   font-family: playfair display;
-  color: #a31d1d;
+  color: var(--wine);
 }
 section {
   padding: 15px;
   margin: 5px;
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 .message-section p {
   text-align: center;
@@ -95,29 +98,28 @@ section {
   background-color: #fef9e1;
   color: #a31d1d;
   text-align: center;
-  border: 1px solid saddlebrown;
+  border: 1px solid var(--wine);
   margin: 5px;
   padding: 5px;
 }
 .testimonials-msg:hover {
-  background-color: #e5d0ac;
+  background-color: var(--cream);
 }
 footer {
   background-color: #e5d0ac;
 
-  padding: 5px;
-  margin: 5px;
+  /* padding: 5px;
+  margin: 5px; */
   list-style: none;
+  /* margin-bottom: 50px; */
 }
 footer ul {
   display: flex;
   justify-content: space-around;
   padding: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #987c6a;
-  /* margin-top: -150px;
-  height: 150px;
-  clear: both; */
+  color: var(--wine);
+  margin-top: auto;
 }
 /* contact us form */
 h1 {
@@ -128,21 +130,29 @@ h1 {
   font-family: charm;
   font-weight: 900;
   font-size: large;
-  color: #a31d1d;
+  color: var(--wine);
+}
+div .contact {
+  margin-top: 20px;
 }
 .contact {
-  border: 2px solid #a31d1d;
-  width: 80%;
-  margin: auto;
-  padding: 0 0 0 5px;
+  display: flex;
+  flex-direction: column;
   font-family: playfair display;
-  color: c;
+  color: var(--wine);
+  padding: 90px 0;
 }
 
 .contact-us {
+  border: 2px solid #a31d1d;
+  /* width: 50%; */
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 5px;
+
+  /* margin-top: 100px; */
+  color: var(--wine);
 }
 input {
   width: 90%;
